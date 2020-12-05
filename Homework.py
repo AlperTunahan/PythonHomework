@@ -11,6 +11,7 @@ def CalcPass(dict):
     for value in dict.values():
         grades.append(value)
 
+
     lastGrade = (grades[0] * 0.3 + grades[1] * 0.5 + grades[2] * 0.2)
     lastGrade = Decimal("%.2f" % lastGrade)
 
