@@ -3,6 +3,7 @@
 from decimal import Decimal
 import random as rnd
 
+
 # Calculation of the letter of grades.
 
 def CalcPass(dict):
